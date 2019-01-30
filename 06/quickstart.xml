@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/don/rti_connext_micro.2.4.11/rtiddsgen/scripts//../resource/rtiddsgen/schema/rti_dds_topic_types.xsd">
+<module name="myModule">
+  <const name="my_topic_name" type="string" value="&quot;quickstart_topic&quot;"/>
+  <struct name= "msgType">
+    <member name="id" type="int32" key="true"/>
+    <member name="value1" type="int32"/>
+    <member name="name" stringMaxLength="128" type="string"/>
+  </struct>
+</module>
+</types>
