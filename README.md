@@ -43,3 +43,14 @@ Lab 7. Waitsets
     data.
   - don't forget to remove the on_data_available listener code
 
+
+BONUS LABS
+
+Lab - FlatData
+
+  - create a fresh user project using the flatdata idl
+    - $RTIMEHOME/rtiddsgen/scripts/rtiddsgen -micro -language C++ -create typefiles -create examplefiles -create makefiles ./quickstart.idl 
+    - on the publisher, modify the writer code to get offsets and set sample values
+    - on the subscriber, modify the DR listener to get offsets and print a couple sample values
+    
+
